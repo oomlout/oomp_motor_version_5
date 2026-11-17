@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+<rect width="297" height="210" fill="#ffffff"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#147d83"/></marker></defs>
+<g font-family="Arial, sans-serif" fill="#183336" stroke="none">
+<text x="12" y="15" font-size="4" fill="#147d83">OOMP / MOTOR / NOMINAL LAYOUT</text>
+<text x="12" y="26" font-size="7">NEMA 17 / STEPPER</text>
+<text x="12" y="34" font-size="3.2">motor_stepper_nema_17_40_mm_depth</text>
+<text x="12" y="43" font-size="3.4">BODY 42 × 42 × 40 mm • NOMINAL GENERIC</text>
+<path d="M12 48 H285" stroke="#147d83" stroke-width="0.6"/>
+<text x="76" y="56" text-anchor="middle" font-size="3.5">FRONT / +Z</text>
+<text x="215" y="56" text-anchor="middle" font-size="3.5">SIDE / +Y</text>
+<g stroke="#183336" stroke-linejoin="round">
+<path d="M 53.348,127.648 L 52.985,127.205 L 52.715,126.700 L 52.548,126.152 L 52.492,125.582 L 52.548,125.012 L 52.715,124.464 L 52.985,123.959 L 53.348,123.516 L 53.791,123.153 L 54.296,122.883 L 54.844,122.716 L 55.414,122.660 L 55.984,122.716 L 56.532,122.883 L 57.037,123.153 L 57.480,123.516 L 57.844,123.959 L 58.114,124.464 L 58.280,125.012 L 58.336,125.582 L 58.280,126.152 L 58.114,126.700 L 57.844,127.205 L 57.480,127.648 L 57.037,128.011 L 56.532,128.281 L 55.984,128.448 L 55.414,128.504 L 54.844,128.448 L 54.296,128.281 L 53.791,128.011 L 53.348,127.648 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 53.348,86.476 L 52.985,86.033 L 52.715,85.528 L 52.548,84.980 L 52.492,84.410 L 52.548,83.840 L 52.715,83.292 L 52.985,82.787 L 53.348,82.344 L 53.791,81.981 L 54.296,81.711 L 54.844,81.544 L 55.414,81.488 L 55.984,81.544 L 56.532,81.711 L 57.037,81.981 L 57.480,82.344 L 57.844,82.787 L 58.114,83.292 L 58.280,83.840 L 58.336,84.410 L 58.280,84.980 L 58.114,85.528 L 57.844,86.033 L 57.480,86.476 L 57.037,86.840 L 56.532,87.110 L 55.984,87.276 L 55.414,87.332 L 54.844,87.276 L 54.296,87.110 L 53.791,86.840 L 53.348,86.476 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 94.520,127.648 L 94.156,127.205 L 93.886,126.700 L 93.720,126.152 L 93.664,125.582 L 93.720,125.012 L 93.886,124.464 L 94.156,123.959 L 94.520,123.516 L 94.963,123.153 L 95.468,122.883 L 96.016,122.716 L 96.586,122.660 L 97.156,122.716 L 97.704,122.883 L 98.209,123.153 L 98.652,123.516 L 99.015,123.959 L 99.285,124.464 L 99.452,125.012 L 99.508,125.582 L 99.452,126.152 L 99.285,126.700 L 99.015,127.205 L 98.652,127.648 L 98.209,128.011 L 97.704,128.281 L 97.156,128.448 L 96.586,128.504 L 96.016,128.448 L 95.468,128.281 L 94.963,128.011 L 94.520,127.648 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 94.520,86.476 L 94.156,86.033 L 93.886,85.528 L 93.720,84.980 L 93.664,84.410 L 93.720,83.840 L 93.886,83.292 L 94.156,82.787 L 94.520,82.344 L 94.963,81.981 L 95.468,81.711 L 96.016,81.544 L 96.586,81.488 L 97.156,81.544 L 97.704,81.711 L 98.209,81.981 L 98.652,82.344 L 99.015,82.787 L 99.285,83.292 L 99.452,83.840 L 99.508,84.410 L 99.452,84.980 L 99.285,85.528 L 99.015,86.033 L 98.652,86.476 L 98.209,86.840 L 97.704,87.110 L 97.156,87.276 L 96.586,87.332 L 96.016,87.276 L 95.468,87.110 L 94.963,86.840 L 94.520,86.476 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 66.703,79.098 L 66.703,75.113 L 85.297,75.113 L 85.297,79.098 L 66.703,79.098 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 48.109,81.090 L 52.094,77.105 L 99.906,77.105 L 103.891,81.090 L 103.891,128.902 L 99.906,132.887 L 52.094,132.887 L 48.109,128.902 L 48.109,81.090 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 48.109,81.090 L 52.094,77.105 L 99.906,77.105 L 103.891,81.090 L 103.891,128.902 L 99.906,132.887 L 52.094,132.887 L 48.109,128.902 L 48.109,81.090 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 48.109,81.090 L 52.094,77.105 L 99.906,77.105 L 103.891,81.090 L 103.891,128.902 L 99.906,132.887 L 52.094,132.887 L 48.109,128.902 L 48.109,81.090 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 61.671,102.146 L 62.503,99.405 L 63.853,96.880 L 65.670,94.666 L 67.883,92.849 L 70.409,91.499 L 73.150,90.667 L 76.000,90.387 L 78.850,90.667 L 81.591,91.499 L 84.117,92.849 L 86.330,94.666 L 88.147,96.880 L 89.497,99.405 L 90.329,102.146 L 90.609,104.996 L 90.329,107.846 L 89.497,110.587 L 88.147,113.113 L 86.330,115.326 L 84.117,117.143 L 81.591,118.493 L 78.850,119.325 L 76.000,119.605 L 73.150,119.325 L 70.409,118.493 L 67.883,117.143 L 65.670,115.326 L 63.853,113.113 L 62.503,110.587 L 61.671,107.846 L 61.391,104.996 L 61.671,102.146 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 72.932,106.267 L 72.743,105.644 L 72.680,104.996 L 72.743,104.348 L 72.932,103.725 L 73.239,103.151 L 73.652,102.648 L 74.155,102.235 L 74.729,101.929 L 75.352,101.740 L 76.000,101.676 L 76.648,101.740 L 77.271,101.929 L 77.845,102.235 L 78.348,102.648 L 78.761,103.151 L 79.068,103.725 L 79.257,104.348 L 79.320,104.996 L 79.257,105.644 L 79.068,106.267 L 78.761,106.841 L 78.348,107.344 L 77.845,107.757 L 77.271,108.064 L 76.648,108.253 L 76.000,108.316 L 75.352,108.253 L 74.729,108.064 L 74.155,107.757 L 73.652,107.344 L 73.239,106.841 L 72.932,106.267 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<circle cx="55.4140625" cy="125.58203125" r="1.9921875" fill="white" stroke-width="0.3"/>
+<circle cx="55.4140625" cy="84.41015625" r="1.9921875" fill="white" stroke-width="0.3"/>
+<circle cx="96.5859375" cy="125.58203125" r="1.9921875" fill="white" stroke-width="0.3"/>
+<circle cx="96.5859375" cy="84.41015625" r="1.9921875" fill="white" stroke-width="0.3"/>
+<path d="M 197.336,146.500 L 191.492,146.500 L 191.492,145.570 L 197.336,145.570 L 197.336,146.500 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 238.508,146.500 L 232.664,146.500 L 232.664,145.570 L 238.508,145.570 L 238.508,146.500 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 218.320,93.375 L 211.680,93.375 L 211.680,61.500 L 218.320,61.500 L 218.320,93.375 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 200.391,90.719 L 229.609,90.719 L 229.609,93.375 L 200.391,93.375 L 200.391,90.719 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 197.336,146.500 L 191.492,146.500 L 191.492,145.570 L 197.336,145.570 L 197.336,146.500 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 238.508,146.500 L 232.664,146.500 L 232.664,145.570 L 238.508,145.570 L 238.508,146.500 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 187.109,135.875 L 242.891,135.875 L 242.891,146.500 L 187.109,146.500 L 187.109,135.875 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 187.109,104.000 L 242.891,104.000 L 242.891,135.875 L 187.109,135.875 L 187.109,104.000 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 187.109,93.375 L 242.891,93.375 L 242.891,104.000 L 187.109,104.000 L 187.109,93.375 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+<path d="M 224.297,137.203 L 224.297,143.844 L 205.703,143.844 L 205.703,137.203 L 224.297,137.203 Z" fill="#edf3f3" fill-rule="evenodd" stroke-width="0.22"/>
+</g>
+<g fill="none" stroke="#147d83" stroke-width="0.25">
+<path d="M44.109375 104.99609375 H107.890625 M76.0 73.10546875 V136.88671875" stroke-dasharray="3 1 0.5 1"/>
+<circle cx="76.0" cy="104.99609375" r="29.112912006664885" stroke-dasharray="2 1"/>
+<path d="M53.4140625 84.41015625 H57.4140625 M55.4140625 82.41015625 V86.41015625"/>
+<path d="M53.4140625 125.58203125 H57.4140625 M55.4140625 123.58203125 V127.58203125"/>
+<path d="M94.5859375 84.41015625 H98.5859375 M96.5859375 82.41015625 V86.41015625"/>
+<path d="M94.5859375 125.58203125 H98.5859375 M96.5859375 123.58203125 V127.58203125"/>
+<path d="M55.4140625 82.41015625 V66.10546875 M96.5859375 82.41015625 V66.10546875 M98.5859375 84.41015625 H114.890625 M98.5859375 125.58203125 H114.890625"/>
+<path d="M55.4140625 68.10546875 H96.5859375" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<path d="M112.890625 84.41015625 V125.58203125" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+</g>
+<text x="76.0" y="66.10546875" text-anchor="middle" font-size="3.3">31 C–C</text>
+<text x="116.890625" y="104.99609375" transform="rotate(-90 116.890625 104.99609375)" text-anchor="middle" font-size="3.3">31 C–C</text>
+<path d="M53.421875 84.41015625 L27 76 L14 76" fill="none" stroke="#147d83" stroke-width="0.25" marker-start="url(#arrow)"/>
+<text x="14" y="74" font-size="2.8">4 × R1.5 holes</text>
+<path d="M61.390625 104.99609375 L28 104 L14 104" fill="none" stroke="#147d83" stroke-width="0.25" marker-start="url(#arrow)"/>
+<text x="14" y="102" font-size="2.8">R11 pilot</text>
+<path d="M72.6796875 105.99609375 L28 126 L14 126" fill="none" stroke="#147d83" stroke-width="0.25" marker-start="url(#arrow)"/>
+<text x="14" y="124" font-size="2.8">R2.5 shaft</text>
+<path d="M96.58574007991274 125.58183382991274 L119 140 L143 140" fill="none" stroke="#147d83" stroke-width="0.25" marker-start="url(#arrow)"/>
+<text x="119" y="138" font-size="2.8">R21.92 bolt circle</text>
+<path d="M48.109375 133.88671875 V142.88671875 M55.4140625 127.58203125 V142.88671875 M48.109375 140.88671875 H55.4140625" fill="none" stroke="#147d83" stroke-width="0.25"/>
+<text x="46.109375" y="141.88671875" text-anchor="end" font-size="2.8">5.5 edge</text>
+<path d="M48.109375 148 V154 M103.890625 148 V154 M48.109375 152 H103.890625" fill="none" stroke="#147d83" stroke-width="0.3"/>
+<text x="76.0" y="150" text-anchor="middle" font-size="3.3">42 body width</text>
+<path d="M266 146.5 H278 M266 93.375 H278 M275 146.5 V93.375" fill="none" stroke="#147d83" stroke-width="0.3"/>
+<text x="280" y="119.9375" transform="rotate(-90 280 119.9375)" text-anchor="middle" font-size="3.3">40 body depth</text>
+<text x="12" y="163" font-size="3.4">Shaft Ø5 × 24 mm (exposed from body face)</text>
+<text x="12" y="168" font-size="3.4">Mounting 31 mm square pitch / Ø3 mm</text>
+<text x="12" y="173" font-size="3.4">Hole centres ±15.5 mm from each axis; 5.5 mm from each nominal edge; bolt circle Ø43.84 mm</text>
+<text x="12" y="178" font-size="2.8" fill="#61767a">ILLUSTRATIVE MODEL. Selected common 42 mm face, 31 mm mounting pitch, 22 mm pilot and 5 x 24 mm shaft. Frame designation does not fix body or</text>
+<text x="12" y="182" font-size="2.8" fill="#61767a">shaft length. Mounting threads represented by smooth holes.</text>
+<path d="M12 198 H285" stroke="#147d83" stroke-width="0.4"/><text x="12" y="204" font-size="2.8">mm • scale 1.328:1 at A4 • simplified component projections • source notes in working.yaml</text></g></svg>

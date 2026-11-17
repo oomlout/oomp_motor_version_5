@@ -21,12 +21,10 @@ def load(name,path):
 
 class CadContractTests(unittest.TestCase):
     def test_populate_declares_type_and_output_flags(self):
-        writer=Mock()
-        helpers=SimpleNamespace(build_oomp_id=lambda item:'sample',write_extras=writer)
-        with patch.dict(sys.modules,{'oomp_populate_helper':helpers,'working_oomp_populate_extra_detail':SimpleNamespace(main=lambda **kwargs:None)}):
-            populate=load('population_contract',PROJECT/'working_oomp_populate.py')
-            populate.main()
-        options=writer.call_args.args[0]
+        import tempfile
+        populate=load('population_contract',PROJECT/'working_oomp_populate.py')
+        with tempfile.TemporaryDirectory() as root:
+            options=populate.main(root=root)
         self.assertTrue(options)
         for option in options:
             self.assertEqual(option['oobb_details']['oobb_type'],option['oobb_type'])

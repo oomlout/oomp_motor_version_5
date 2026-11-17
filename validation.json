@@ -1,0 +1,102 @@
+{
+  "checked_on": "2026-11-17",
+  "parts_checked": 17,
+  "renders_checked": 68,
+  "scad_representatives": 9,
+  "results": [
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_100_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 1.674056137405723e-08
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_150_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_298_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_30_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_50_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_all_metal_gear_6_volt_90_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 2.1078519662734237e-08
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_bi_metal_gear_6_volt_90_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 1.1019680931014892e-08
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_plastic_gear_6_volt_48_to_1_reduction",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 1.2029178078667269e-08
+    },
+    {
+      "id": "motor_fan_computer_square_axial_120_mm_width_25_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 9.302724485406672e-08
+    },
+    {
+      "id": "motor_fan_computer_square_axial_140_mm_width_25_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 1.1881887285553131e-07
+    },
+    {
+      "id": "motor_fan_computer_square_axial_40_mm_width_10_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 1.007224404014148e-07
+    },
+    {
+      "id": "motor_fan_computer_square_axial_60_mm_width_25_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_fan_computer_square_axial_80_mm_width_25_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_fan_computer_square_axial_92_mm_width_25_mm_depth_12_volt",
+      "components_closed": true,
+      "render_count": 4
+    },
+    {
+      "id": "motor_pump_submersible_jt_500",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 9.963165550591502e-09
+    },
+    {
+      "id": "motor_stepper_nema_17_40_mm_depth",
+      "components_closed": true,
+      "render_count": 4,
+      "openscad_symmetric_difference_fraction": 2.800903855140024e-10
+    },
+    {
+      "id": "motor_stepper_nema_17_48_mm_depth",
+      "components_closed": true,
+      "render_count": 4
+    }
+  ]
+}

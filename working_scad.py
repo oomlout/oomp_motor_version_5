@@ -1,13 +1,18 @@
 import copy
-import oobb
 import yaml
 import os
-import scad_help
+# Load legacy OOBB only when a scaffold routine is explicitly called.
+def _legacy_dependencies(**kwargs):
+    global oobb, scad_help
+    import oobb
+    import scad_help
 
 def main(**kwargs):
-    make_scad(**kwargs)
+    import working_motor_scad
+    return working_motor_scad.main(**kwargs)
 
 def make_scad(**kwargs):
+    _legacy_dependencies()
     typ = scad_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
@@ -82,6 +87,7 @@ def get_parts(kwargs, oomp_mode):
     return parts
 
 def get_base(thing, **kwargs):
+    _legacy_dependencies()
 
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
@@ -135,6 +141,7 @@ def get_base(thing, **kwargs):
         scad_help.prepare_base_for_print(thing, pos, **kwargs)
 
 def get_hole_cover(thing, **kwargs):
+    _legacy_dependencies()
 
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
@@ -234,6 +241,7 @@ def get_hole_cover(thing, **kwargs):
 
     
 def get_plate(thing, **kwargs):
+    _legacy_dependencies()
 
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)

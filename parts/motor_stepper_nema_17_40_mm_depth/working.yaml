@@ -1,0 +1,809 @@
+family: stepper
+form_factor: nema_17
+construction: ''
+voltage_v: null
+reduction_ratio: null
+description: Generic NEMA 17 stepper; winding, current, torque and step angle unspecified.
+dimension_status: nominal_generic
+dimension_note: Selected common 42 mm face, 31 mm mounting pitch, 22 mm pilot and
+  5 x 24 mm shaft. Frame designation does not fix body or shaft length. Mounting threads
+  represented by smooth holes.
+sources:
+- url: https://www.omc-stepperonline.com/nema-17-unipolar-1-8deg-26ncm-37oz-in-0-4a-12v-42x42x39mm-6-wires-17hs15-0406s
+  supports: Example 42 mm frame, 40 mm body, 5 x 24 mm shaft. Electrical specifications
+    not inherited.
+catalogue_schema: oomp_motor_v5
+dimensions_mm:
+  body_width: 42.0
+  body_height: 42.0
+  body_depth: 40
+  corner_chamfer: 3.0
+  cap_depth: 8.0
+  mounting_pitch: 31.0
+  mounting_hole_diameter: 3.0
+  mounting_hole_depth: 4.5
+  pilot_diameter: 22.0
+  pilot_height: 2.0
+  shaft_diameter: 5.0
+  shaft_length: 24.0
+  shaft_flat_depth: 0.5
+  shaft_flat_length: 15.0
+  mounting_hole_radius: 1.5
+  mounting_circle_radius: 21.920310216782973
+  mounting_circle_diameter: 43.84062043356595
+  mounting_axis_offset: 15.5
+  mounting_edge_offset_x: 5.5
+  mounting_edge_offset_y: 5.5
+  pilot_radius: 11.0
+  shaft_radius: 2.5
+source_checked: '2026-11-17'
+taxonomy_1: motor
+taxonomy_2: stepper
+taxonomy_3: nema_17
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 40_mm_depth
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_descriptions:
+  taxonomy_1: 'Class: motor, including driven pumps and fans.'
+  taxonomy_2: Functional family.
+  taxonomy_3: Frame, form factor or generic model series.
+  taxonomy_4: Construction variant, e.g. gearbox gear material.
+  taxonomy_5: Nominal body width / frame size where needed.
+  taxonomy_6: 'Reserved: body height / diameter or secondary envelope.'
+  taxonomy_7: Nominal body depth excluding shaft / outlet.
+  taxonomy_8: Nominal voltage; empty for unknown or unselected options.
+  taxonomy_9: Nominal input-to-output gear reduction.
+  taxonomy_10: 'Reserved: winding / step angle / electrical variant.'
+  taxonomy_11: 'Reserved: speed / torque / flow performance grade.'
+  taxonomy_12: 'Reserved: shaft / mounting / outlet configuration.'
+  taxonomy_13: 'Reserved: encoder / connector / control / bearing option.'
+  taxonomy_14: Manufacturer placeholder; empty until selected.
+  taxonomy_15: Manufacturer part number placeholder; empty until verified.
+specification_placeholders:
+  manufacturer: ''
+  manufacturer_part_number: ''
+  rated_current_a: null
+  no_load_speed_rpm: null
+  torque_nm: null
+  step_angle_degrees: null
+  winding: null
+  encoder: null
+  connector: null
+  bearing: null
+oomp_id: motor_stepper_nema_17_40_mm_depth
+id: motor_stepper_nema_17_40_mm_depth
+name: motor stepper nema 17 40 mm depth
+name_proper: motor stepper NEMA 17 40 mm depth
+directory: parts/motor_stepper_nema_17_40_mm_depth
+model_note: Nominal external assembly for identification and layout; internal motor
+  construction, exact gears, windings and flexible leads omitted. Not manufacturing
+  geometry. Selected common 42 mm face, 31 mm mounting pitch, 22 mm pilot and 5 x
+  24 mm shaft. Frame designation does not fix body or shaft length. Mounting threads
+  represented by smooth holes.
+three_d_model_details:
+  schema_version: 1
+  generator: motor_csg_v1
+  units: mm
+  output_folder: three_d_model
+  coordinate_system:
+    origin: Body XY centre at lower body face; TT long body axis X.
+    axis: +Z towards output shaft, pump outlet or fan front.
+    stl_units: mm
+    glb_units: metres
+    glb_up_axis: Y
+    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+  parameters:
+    family: stepper
+    dimensions_mm:
+      body_width: 42.0
+      body_height: 42.0
+      body_depth: 40
+      corner_chamfer: 3.0
+      cap_depth: 8.0
+      mounting_pitch: 31.0
+      mounting_hole_diameter: 3.0
+      mounting_hole_depth: 4.5
+      pilot_diameter: 22.0
+      pilot_height: 2.0
+      shaft_diameter: 5.0
+      shaft_length: 24.0
+      shaft_flat_depth: 0.5
+      shaft_flat_length: 15.0
+      mounting_hole_radius: 1.5
+      mounting_circle_radius: 21.920310216782973
+      mounting_circle_diameter: 43.84062043356595
+      mounting_axis_offset: 15.5
+      mounting_edge_offset_x: 5.5
+      mounting_edge_offset_y: 5.5
+      pilot_radius: 11.0
+      shaft_radius: 2.5
+    characteristic_dimension_mm: 42.0
+    characteristic_dimension_basis: maximum nominal body dimension
+  modelling_note: Nominal external assembly for identification and layout; internal
+    motor construction, exact gears, windings and flexible leads omitted. Not manufacturing
+    geometry. Selected common 42 mm face, 31 mm mounting pitch, 22 mm pilot and 5
+    x 24 mm shaft. Frame designation does not fix body or shaft length. Mounting threads
+    represented by smooth holes.
+  variants:
+    full:
+      angular_segments: 96
+    display:
+      angular_segments: 32
+  components:
+  - name: rear_end_cap
+    material: aluminium
+    node:
+      shape: polygon
+      points: &id001
+      - - -18.0
+        - -21.0
+      - - 18.0
+        - -21.0
+      - - 21.0
+        - -18.0
+      - - 21.0
+        - 18.0
+      - - 18.0
+        - 21.0
+      - - -18.0
+        - 21.0
+      - - -21.0
+        - 18.0
+      - - -21.0
+        - -18.0
+      depth: 8.0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      twist: 0
+      slices: 12
+  - name: stator_stack
+    material: black_metal
+    node:
+      shape: polygon
+      points: *id001
+      depth: 24.0
+      pos:
+      - 0
+      - 0
+      - 8.0
+      rot:
+      - 0
+      - 0
+      - 0
+      twist: 0
+      slices: 12
+  - name: front_end_cap
+    material: aluminium
+    node:
+      shape: difference
+      children:
+      - shape: polygon
+        points: *id001
+        depth: 8.0
+        pos:
+        - 0
+        - 0
+        - 32.0
+        rot:
+        - 0
+        - 0
+        - 0
+        twist: 0
+        slices: 12
+      - shape: cylinder
+        diameter: 3.0
+        depth: 4.52
+        pos:
+        - -15.5
+        - -15.5
+        - 35.5
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: cylinder
+        diameter: 3.0
+        depth: 4.52
+        pos:
+        - -15.5
+        - 15.5
+        - 35.5
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: cylinder
+        diameter: 3.0
+        depth: 4.52
+        pos:
+        - 15.5
+        - -15.5
+        - 35.5
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: cylinder
+        diameter: 3.0
+        depth: 4.52
+        pos:
+        - 15.5
+        - 15.5
+        - 35.5
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: pilot
+    material: aluminium
+    node:
+      shape: cylinder
+      diameter: 22.0
+      depth: 2.0
+      pos:
+      - 0
+      - 0
+      - 40
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: output_d_shaft
+    material: steel
+    node:
+      shape: difference
+      children:
+      - shape: cylinder
+        diameter: 5.0
+        depth: 24.0
+        pos:
+        - 0
+        - 0
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 10.0
+        - 5.0
+        - 15.02
+        pos:
+        - 0
+        - 4.5
+        - 8.99
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 40
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: rear_screw_-15.5_-15.5
+    material: steel
+    node:
+      shape: difference
+      children:
+      - shape: cylinder
+        diameter: 4.4
+        depth: 0.7
+        pos:
+        - -15.5
+        - -15.5
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 3
+        - 0.7
+        - 0.4
+        pos:
+        - -15.5
+        - -15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 0.7
+        - 3
+        - 0.4
+        pos:
+        - -15.5
+        - -15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: rear_screw_-15.5_15.5
+    material: steel
+    node:
+      shape: difference
+      children:
+      - shape: cylinder
+        diameter: 4.4
+        depth: 0.7
+        pos:
+        - -15.5
+        - 15.5
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 3
+        - 0.7
+        - 0.4
+        pos:
+        - -15.5
+        - 15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 0.7
+        - 3
+        - 0.4
+        pos:
+        - -15.5
+        - 15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: rear_screw_15.5_-15.5
+    material: steel
+    node:
+      shape: difference
+      children:
+      - shape: cylinder
+        diameter: 4.4
+        depth: 0.7
+        pos:
+        - 15.5
+        - -15.5
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 3
+        - 0.7
+        - 0.4
+        pos:
+        - 15.5
+        - -15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 0.7
+        - 3
+        - 0.4
+        pos:
+        - 15.5
+        - -15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: rear_screw_15.5_15.5
+    material: steel
+    node:
+      shape: difference
+      children:
+      - shape: cylinder
+        diameter: 4.4
+        depth: 0.7
+        pos:
+        - 15.5
+        - 15.5
+        - 0
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 3
+        - 0.7
+        - 0.4
+        pos:
+        - 15.5
+        - 15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      - shape: box
+        size:
+        - 0.7
+        - 3
+        - 0.4
+        pos:
+        - 15.5
+        - 15.5
+        - -0.01
+        rot:
+        - 0
+        - 0
+        - 0
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+  - name: connector
+    material: black_plastic
+    node:
+      shape: box
+      size:
+      - 14
+      - 3
+      - 5
+      pos:
+      - 0
+      - 21.0
+      - 2
+      rot:
+      - 0
+      - 0
+      - 0
+  material:
+    name: Satin steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.26
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Visual finish approximation; catalogue specifies colour only.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 48
+    high_samples: 96
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower body face
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+    reference: 'OOMP hardware / bearing studio: same three softboxes, floor, AgX and
+      metal microtexture; expanded material palette.'
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 1024
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 1024
+      view: product
+  materials:
+    steel:
+      name: Satin steel
+      base_colour_srgb:
+      - 0.62
+      - 0.65
+      - 0.69
+      metallic: 1.0
+      roughness: 0.26
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    aluminium:
+      name: Cast aluminium end plates
+      base_colour_srgb:
+      - 0.72
+      - 0.74
+      - 0.76
+      metallic: 0.9
+      roughness: 0.32
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    brass:
+      name: Brass gearbox plates
+      base_colour_srgb:
+      - 0.67
+      - 0.48
+      - 0.2
+      metallic: 0.9
+      roughness: 0.3
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    black_metal:
+      name: Black coated motor body
+      base_colour_srgb:
+      - 0.12
+      - 0.13
+      - 0.15
+      metallic: 0.65
+      roughness: 0.33
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    black_plastic:
+      name: Black moulded polymer
+      base_colour_srgb:
+      - 0.065
+      - 0.075
+      - 0.09
+      metallic: 0.0
+      roughness: 0.34
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    grey_plastic:
+      name: Grey pump housing
+      base_colour_srgb:
+      - 0.42
+      - 0.45
+      - 0.48
+      metallic: 0.0
+      roughness: 0.36
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    yellow_plastic:
+      name: Yellow TT housing
+      base_colour_srgb:
+      - 0.96
+      - 0.68
+      - 0.035
+      metallic: 0.0
+      roughness: 0.32
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    blue_plastic:
+      name: Blue TT housing
+      base_colour_srgb:
+      - 0.075
+      - 0.34
+      - 0.68
+      metallic: 0.0
+      roughness: 0.32
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+    white_plastic:
+      name: Natural nylon shaft
+      base_colour_srgb:
+      - 0.86
+      - 0.85
+      - 0.81
+      metallic: 0.0
+      roughness: 0.38
+      roughness_variation: 0.045
+      coat_weight: 0.02
+      coat_roughness: 0.28
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.8
+      note: Visual material approximation; no exact alloy or polymer grade asserted.
+oobb_type: motor
+oobb_details:
+  oobb_type: motor
+  oobb_name: stepper
+  run_scad: true
+  run_solidcraft: false
+  recipe_source: three_d_model_details
+  units: mm
+svg_details:
+  svg_name: motor_mechanical_drawing
+  filename: working_mechanical_drawing
+  sheet_width_mm: 297
+  sheet_height_mm: 210
+  ink: '#183336'
+  accent: '#147d83'
+  muted: '#61767a'
+  paper: '#ffffff'
+  font_family: Arial, sans-serif
+  line_width_mm: 0.35
+  dimensions_mm:
+    body_width: 42.0
+    body_height: 42.0
+    body_depth: 40
+    corner_chamfer: 3.0
+    cap_depth: 8.0
+    mounting_pitch: 31.0
+    mounting_hole_diameter: 3.0
+    mounting_hole_depth: 4.5
+    pilot_diameter: 22.0
+    pilot_height: 2.0
+    shaft_diameter: 5.0
+    shaft_length: 24.0
+    shaft_flat_depth: 0.5
+    shaft_flat_length: 15.0
+    mounting_hole_radius: 1.5
+    mounting_circle_radius: 21.920310216782973
+    mounting_circle_diameter: 43.84062043356595
+    mounting_axis_offset: 15.5
+    mounting_edge_offset_x: 5.5
+    mounting_edge_offset_y: 5.5
+    pilot_radius: 11.0
+    shaft_radius: 2.5

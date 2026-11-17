@@ -13,13 +13,17 @@ def main(**kwargs):
     #run_scad = False
     kwargs["run_scad"] = run_scad
 
-    run_action = kwargs.get("run_action", True)
+    run_action = kwargs.get("run_action", False)
     #run_action = False
     kwargs["run_action"] = run_action
 
     generate_stl = kwargs.get("generate_stl", False)
     #generate_stl = True
     kwargs["generate_stl"] = generate_stl
+
+    kwargs.setdefault("run_svg", True)
+    kwargs.setdefault("run_three_d_model", True)
+    kwargs.setdefault("run_documentation", True)
 
     run(**kwargs)
 
@@ -74,6 +78,14 @@ def run(**kwargs):
     if kwargs.get("run_solidcraft", False):
         import working_solidcraft
         working_solidcraft.main(solidcraft_context=native_context)
+
+    if kwargs.get("run_three_d_model", False):
+        import working_three_d_model
+        working_three_d_model.main(**kwargs)
+
+    if kwargs.get("run_documentation", False):
+        import working_motor_documentation
+        working_motor_documentation.main(**kwargs)
 
 
 

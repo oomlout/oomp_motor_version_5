@@ -1,0 +1,60 @@
+{
+  "fingerprint": "f8f8b45a972d550369f77ccc6aef082da903fa63516e634458845078e09010c3",
+  "schema_version": 1,
+  "units": "mm; GLB metres/Y-up",
+  "geometry": {
+    "full": {
+      "bounds_mm": [
+        [
+          -6.0,
+          -5.0,
+          -2.5
+        ],
+        [
+          6.0,
+          5.0,
+          35.0
+        ]
+      ],
+      "components": 14,
+      "triangles": 4392,
+      "all_components_watertight": true,
+      "assembly_note": "Separate closed visual components may touch or overlap; STL is an assembly, not a printable union."
+    },
+    "display": {
+      "bounds_mm": [
+        [
+          -6.0,
+          -5.0,
+          -2.5
+        ],
+        [
+          6.0,
+          5.0,
+          35.0
+        ]
+      ],
+      "components": 14,
+      "triangles": 1512,
+      "all_components_watertight": true,
+      "assembly_note": "Separate closed visual components may touch or overlap; STL is an assembly, not a printable union."
+    }
+  },
+  "rendered": true,
+  "files": [
+    "model.py",
+    "model_display.glb",
+    "model_display.stl",
+    "model_full.glb",
+    "model_full.stl",
+    "motor_model_geometry.py",
+    "parameters.json",
+    "render_high.png",
+    "render_low.png",
+    "render_product_high.png",
+    "render_product_low.png",
+    "render_scene.json",
+    "requirements.txt",
+    "studio.blend"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "parts": [
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_30_to_1_reduction",
+      "family": "dc_gearmotor_n20",
+      "directory": "parts/motor_dc_gearmotor_n20_6_volt_30_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_50_to_1_reduction",
+      "family": "dc_gearmotor_n20",
+      "directory": "parts/motor_dc_gearmotor_n20_6_volt_50_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_100_to_1_reduction",
+      "family": "dc_gearmotor_n20",
+      "directory": "parts/motor_dc_gearmotor_n20_6_volt_100_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_150_to_1_reduction",
+      "family": "dc_gearmotor_n20",
+      "directory": "parts/motor_dc_gearmotor_n20_6_volt_150_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_n20_6_volt_298_to_1_reduction",
+      "family": "dc_gearmotor_n20",
+      "directory": "parts/motor_dc_gearmotor_n20_6_volt_298_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_all_metal_gear_6_volt_90_to_1_reduction",
+      "family": "dc_gearmotor_tt",
+      "directory": "parts/motor_dc_gearmotor_tt_all_metal_gear_6_volt_90_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_bi_metal_gear_6_volt_90_to_1_reduction",
+      "family": "dc_gearmotor_tt",
+      "directory": "parts/motor_dc_gearmotor_tt_bi_metal_gear_6_volt_90_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_dc_gearmotor_tt_plastic_gear_6_volt_48_to_1_reduction",
+      "family": "dc_gearmotor_tt",
+      "directory": "parts/motor_dc_gearmotor_tt_plastic_gear_6_volt_48_to_1_reduction",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_40_mm_width_10_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_40_mm_width_10_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_60_mm_width_25_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_60_mm_width_25_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_80_mm_width_25_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_80_mm_width_25_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_92_mm_width_25_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_92_mm_width_25_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_120_mm_width_25_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_120_mm_width_25_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_fan_computer_square_axial_140_mm_width_25_mm_depth_12_volt",
+      "family": "fan_computer",
+      "directory": "parts/motor_fan_computer_square_axial_140_mm_width_25_mm_depth_12_volt",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_pump_submersible_jt_500",
+      "family": "pump_submersible",
+      "directory": "parts/motor_pump_submersible_jt_500",
+      "dimension_status": "reference_image_nominal"
+    },
+    {
+      "id": "motor_stepper_nema_17_40_mm_depth",
+      "family": "stepper",
+      "directory": "parts/motor_stepper_nema_17_40_mm_depth",
+      "dimension_status": "nominal_generic"
+    },
+    {
+      "id": "motor_stepper_nema_17_48_mm_depth",
+      "family": "stepper",
+      "directory": "parts/motor_stepper_nema_17_48_mm_depth",
+      "dimension_status": "nominal_generic"
+    }
+  ]
+}

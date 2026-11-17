@@ -1,15 +1,20 @@
 import copy
-import opsvg
 import yaml
 import os
-import svg_help
-import svg_styles
+# Load the optional legacy SVG stack only for a scaffold routine.
+def _legacy_dependencies(**kwargs):
+    global opsvg, svg_help, svg_styles
+    import opsvg
+    import svg_help
+    import svg_styles
 
 
 def main(**kwargs):
-    make_svg(**kwargs)
+    import working_motor_drawing
+    return working_motor_drawing.main(**kwargs)
 
 def make_svg(**kwargs):
+    _legacy_dependencies()
     typ = svg_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
@@ -34,6 +39,7 @@ def make_svg(**kwargs):
 
 
 def get_parts(kwargs, oomp_mode):
+    _legacy_dependencies()
     parts = []
 
     #load parts from parts/folder/working.yaml
@@ -102,6 +108,7 @@ def get_parts(kwargs, oomp_mode):
 
 
 def get_base(thing, **kwargs):
+    _legacy_dependencies()
 
     prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)

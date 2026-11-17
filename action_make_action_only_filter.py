@@ -2,8 +2,7 @@ import copy
 import working_scad
 
 def main(**kwargs):
-    filter = ["food_baking_flour_white"]
-    kwargs["filter"] = filter
+    kwargs.setdefault("filter", "motor_*")
     kwargs["run_oomp_populate"] = True
 
     kwargs["run_oomp"] = True
