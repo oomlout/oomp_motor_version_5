@@ -1,0 +1,14 @@
+{
+  "title": "OOMP motors",
+  "summary": "A catalogue of NEMA 17 stepper motors, N20 and TT gearmotors, JT-500 submersible pumps and computer fans, with nominal dimensions, source evidence, editable models and studio renders.",
+  "representative_part": "motor_stepper_nema_17_40_mm_depth",
+  "base_directory_url": "https://github.com/oomlout/oomlout_oomp_version_5",
+  "family_labels": {
+    "stepper": "NEMA 17 stepper motors",
+    "dc_gearmotor_n20": "N20 micro gearmotors",
+    "dc_gearmotor_tt": "TT gearmotors",
+    "pump_submersible": "Submersible pumps",
+    "fan_computer": "Computer fans"
+  },
+  "generator": "working_motor_documentation.py"
+}
